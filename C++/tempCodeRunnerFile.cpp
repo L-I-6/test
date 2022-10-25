@@ -1,5 +1,3 @@
-&b);
-    // h=a+b;
-    // c=a-b;
-    // j=a*b;
-    // s=a/b;
+
+    printf("%f/n%f/n%f/n",bottom,top,high);
+    return 0;

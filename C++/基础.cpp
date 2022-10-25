@@ -18,20 +18,28 @@
 #include <stdio.h>
 int main()
 {
-    int bottom, top, high,area;
+    float bottom, top, high,area;
     printf("请输入梯形的下底:");
     scanf("\n%f", &bottom);
     printf("请输入梯形的上底:");
     scanf("\n%f", &top);
     printf("请输入梯形的高：");
-    scanf("\n%f", &top);
+    scanf("\n%f", &high);
     area = (bottom+top)*high*0.5;
-    printf("111%f",area);
     printf("梯形的面积:%f",area);
     return 0;
 }
 
 // 输出字符对应的ASCII?? 任意输入一个字符，输出此字符对应的ASCII码??
+// #include<stdio.h>
+// int main(){
+//     char a;
+//     scanf("%s",&a);
+//     int b;
+//     b = a;
+//     printf("%d",b);
+// }
+
 // 数据类型长度测试   编写程序，测试所使用的计算机系统字符型、短整型、整彀??长整型、单精度实型、双精度实型所占有的字节数量??
 // 成绩判断  输入一个学生的数学成绩，如果它低于60，输出“Fail”，否则，输出“Pass”。不要改变与输入输出有关的语句??
 // 字符转换  输入一个字符，如果它是大写字母，输出相应的小写字母；如果它是小写字母，输出相应的大写字母；否则，原样输出。不要改变与输入输出有关的语句??

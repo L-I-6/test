@@ -1,3 +1,17 @@
+char letter=getchar();
+    // if (letter>= 'A' && letter <= 'Z')
+    // {
+    //     letter = letter - 32;
+    //     printf("%c", letter);
+    // }
+    // else if (letter >= 'a' && letter <= 'z')
+    // {
+    //     letter = letter + 32;
+    //     printf("%c", letter);
+    // }
+    // else
+    // {
+    //     printf("%c", letter);
+    // }
 
-    printf("%f/n%f/n%f/n",bottom,top,high);
-    return 0;
+    // return 0;

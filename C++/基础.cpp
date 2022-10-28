@@ -92,26 +92,60 @@
 // }
 
 // 利用海伦公式求三角形面积 三角形三个边??
-#include <stdio.h>
-#include <math.h>
-int main()
-{
-    float a, b, c, d, area;
-    scanf("%f", &a);
-    scanf("%f", &b);
-    scanf("%f", &c);
-    if (a + b > c && a + c > b && b + c > a)
-    {
-        d = (a + b + c) / 2;
-        area = sqrt(d * (d - a) * (d - b) * (d - c));
-        printf("三角形面积：%f", area);
-    }
-    else
-    {
-        printf("这三条边无法组成三角形！");
-    }
-    return 0;
-}
+// #include <stdio.h>
+// #include <math.h>
+// int main()
+// {
+//     float a, b, c, d, area;
+//     scanf("%f", &a);
+//     scanf("%f", &b);
+//     scanf("%f", &c);
+//     if (a + b > c && a + c > b && b + c > a)
+//     {
+//         d = (a + b + c) / 2;
+//         area = sqrt(d * (d - a) * (d - b) * (d - c));
+//         printf("三角形面积：%f", area);
+//     }
+//     else
+//     {
+//         printf("这三条边无法组成三角形！");
+//     }
+//     return 0;
+// }
 
-//  判断是否能构成一个三角形   从键盘输三个数，判断是否能将它们作为三角形的三条边构成一个三角形。若能，输出“Yes”，否则，输出“No”??
+//  判断是否能构成一个三角形   从键盘输三个数，判断是否能将它们作为三角形的三条边构成一个三角形。若能，输出“Yes”，否则，输出“No”??#
+// #include<stdio.h>
+// int main(){
+//     int a,b,c;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     scanf("%d",&c);
+//     if (a+b>c && a+c>b && c+b>a){
+//         printf("Yes");
+//     }
+//     else{
+//         printf("No");
+//     }
+
+// }
 //  按从大到小排序三个数 从键盘输入三个数，将它们按从大到小进行排序，然后输出??
+// #include<stdio.h>
+// int main(){
+//     int a[3]={0},i,c;
+//     for(i=0;i<3;i++){
+//         scanf("%d",&a[i]);
+//     }
+//     for(i=1;i<3;i++){
+//         if (a[i-1]<a[i]){
+//             c=a[i];
+//             a[i] =a[i-1]; 
+//             a[i-1]=c;
+//         }
+//     }
+//     for (i=0;i<3;i++){
+//         printf("%d\n",a[i]);
+//     }
+    
+//     return 0;
+
+// }
